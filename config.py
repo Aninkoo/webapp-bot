@@ -15,7 +15,7 @@ class Config:
         "👋 <b>Welcome!</b>\n\n"
         "Click the button below to launch <b>PaxMOVIES Catalog</b> webapp:")
 
-    WELCOME_MESSAGE2 = os.getenv('WELCOME_MESSAGE', 
+    WELCOME_MESSAGE2 = os.getenv('WELCOME_MESSAGE2', 
         "🔎 <b>Search in Catalog!</b>\n\n"
         "Click the button below to launch <b>PaxMOVIES Catalog</b> webapp:")
     
