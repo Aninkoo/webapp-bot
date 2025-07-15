@@ -37,7 +37,7 @@ async def handle_message(client: Client, message: Message):
     
     # Send welcome message with button
     welcome_msg = await message.reply(
-        config.WELCOME_MESSAGE,
+        config.WELCOME_MESSAGE2,
         reply_markup=keyboard
     )
     
