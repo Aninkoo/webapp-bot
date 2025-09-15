@@ -31,7 +31,7 @@ async def handle_message(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [[InlineKeyboardButton(
             text=config.WEB_APP_BUTTON_TEXT,
-            web_app=WebAppInfo(url=config.WEB_APP_URL)
+            url=config.WEB_APP_URL
         )]]
     )
     
@@ -57,7 +57,7 @@ async def start_command(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [[InlineKeyboardButton(
             text=config.WEB_APP_BUTTON_TEXT,
-            web_app=WebAppInfo(url=config.WEB_APP_URL)
+            url=config.WEB_APP_URL
         )]]
     )
     
@@ -67,5 +67,5 @@ async def start_command(client: Client, message: Message):
     )
 
 if __name__ == "__main__":
-    print("Starting bot...")
+    print("Bot Started ✅")
     app.run()
